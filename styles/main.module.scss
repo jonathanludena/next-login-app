@@ -1,0 +1,53 @@
+.Login {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-content: center;
+
+  .formLogin {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      margin: 15px;
+    }
+  }
+}
+
+.errorMessage {
+  color: red;
+  margin: 15px 0;
+  font-size: small;
+}
+
+.Dashboard {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  width: 100%;
+
+  h1 {
+    margin: 15px;
+  }
+
+  .ProfileContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    h3 {
+      margin: 15px 0;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  button {
+    margin: 15px 0;
+  }
+}
